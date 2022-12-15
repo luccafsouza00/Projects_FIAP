@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto_Fintech_LuccaSouza" id="A0DBD3A5-46BF-DA36-7C11-0DED5E4A6F8B" version="3.5">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 07:33:29 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A0DBD3A5-46BF-DA36-7C11-0DED5E4A6F8B</designId>
+</OSDM_Design>

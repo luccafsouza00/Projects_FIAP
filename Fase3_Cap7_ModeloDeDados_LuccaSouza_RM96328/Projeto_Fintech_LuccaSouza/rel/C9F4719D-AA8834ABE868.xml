@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_Fintech" id="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" mainViewID="71914006-2C70-A56A-0778-EED78C762E2D">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:40:09 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

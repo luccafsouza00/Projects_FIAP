@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CE46E8A-0A10-D6D4-DDB2-35690D1B14FA" name="T_FINTECH_ESTADO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 07:43:53 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estado" id="8D501ED7-0876-0E90-8FFC-C6C89111045C">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 07:50:43 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="3079C773-524F-AA6D-617D-2CDE5580B996">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 07:51:54 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB88A177-3C43-44F0-DBEC-8F967D235287" name="T_FINTECH_ESTADO PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 07:50:51 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D501ED7-0876-0E90-8FFC-C6C89111045C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A49BFBA-C474-3729-556C-C00B8356C3D7" name="T_FINTECH_USUARIO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>FDD129E1-9F04-279F-7038-36A15D1C3A43</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="9C94747B-FA2D-65AA-CBF0-3B83FC1449F2">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>842E2CAB-FA5D-9624-4371-AD78241A8AD1</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FINTECH_CONTA_id_conta" id="A551CE7B-7E2D-CC40-1AEF-56C7629F7448">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>6014AED0-2B6F-5D55-1062-8805D7393C57</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C210D5F-D518-36CC-3171-116800B9B0AC" referredColumn="7B89D8B2-6985-97B4-F2B2-F2441E361A7D"/>
+</associations>
+</Column>
+<Column name="nm_completo" id="F3122510-B9E6-EF1D-3191-E66744A2D070">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>41723959-DB0A-243D-AFE0-97F24BC3A2D6</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="4B157026-06E3-E5EA-1BE8-E7D0F1B83F0F">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>DE572D01-AFB4-2A63-A4E4-D35276DF9209</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="4F290593-B361-C121-CEA5-320DD4D0AE73">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>1A948C94-9476-18E1-FB9D-E97AD6C4F743</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="3BF5CD4A-F1FC-4C21-C7C6-4B309D8B0BE9">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>89D23617-03A9-C131-1EE6-6E978B129EED</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="0E6864DA-B160-0684-4DED-96B08FA4AC47">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>24C4F539-F821-03D6-8538-3EF82E720777</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D8C9E3B-3B55-E059-5ECB-B35BB4A62B4B" name="T_FINTECH_USUARIO_PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>DC4C69B6-EA29-16C3-E0FA-DE6C44A03EF3</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C94747B-FA2D-65AA-CBF0-3B83FC1449F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CF21E11-BF30-B0ED-529D-209F3E7DCB8C" name="T_FINTECH_USUARIO__IDX">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CF7A9DE1-C11D-EF0C-AEF6-7C0850DA9BCB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A551CE7B-7E2D-CC40-1AEF-56C7629F7448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="180D3755-62AC-D168-39DD-BE8B3399AB56" name="T_FINTECH_USUARIO_T_FINTECH_CONTA_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>CF7A9DE1-C11D-EF0C-AEF6-7C0850DA9BCB</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A551CE7B-7E2D-CC40-1AEF-56C7629F7448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

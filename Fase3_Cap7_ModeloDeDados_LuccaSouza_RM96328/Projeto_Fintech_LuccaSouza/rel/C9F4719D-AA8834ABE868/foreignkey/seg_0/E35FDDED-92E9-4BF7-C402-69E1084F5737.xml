@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E35FDDED-92E9-4BF7-C402-69E1084F5737" containerWithKeyObject="87E8A5BF-7801-F277-AF12-74DE9487F7F4" localFKIndex="0491C1C5-DD15-6C42-2D2C-3BE93B70602B" name="T_FINTECH_CIDADE_T_FINTECH_ESTADO_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>842BDD52-FC05-88AE-0280-BDBAD83BA548</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<referredTableLongName>T_FINTECH_ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0DB4737-10D6-AC10-65C4-362E26531855</referredTableID>
+<keyObject>C2E3D205-BD8A-E822-8A53-A6F18346DEF2</keyObject>
+<referredKeyID>C2E3D205-BD8A-E822-8A53-A6F18346DEF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_estado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

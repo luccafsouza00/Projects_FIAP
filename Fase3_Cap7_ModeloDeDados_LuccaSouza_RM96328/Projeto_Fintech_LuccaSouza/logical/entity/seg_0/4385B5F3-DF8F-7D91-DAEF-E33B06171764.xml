@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4385B5F3-DF8F-7D91-DAEF-E33B06171764" name="T_FINTECH_FORMA_PAGAMENTO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:32:42 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conta" id="4DC252F7-5AA4-BA27-B4F9-4973E3D77EBB">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:35:24 UTC</createdTime>
+<generatorID>92296ED5-9758-71C2-C288-68E222C26120</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<referedAttribute>A3DF7D70-0C96-C880-A111-8AEEA5369BB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_forma_pagamento" id="5F2BE4CE-DA32-C886-70B2-0F7AB5AAB65D">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:36:55 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_pagamento" id="BD05C779-D350-B247-014C-92FE7373CFA4">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:38:31 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4837F561-49F8-2CFC-37DE-05A131661335" name="T_FINTECH_FORMA_PAGAMENTO PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:37:04 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F2BE4CE-DA32-C886-70B2-0F7AB5AAB65D</attributeRef>
+<attributeRef>4DC252F7-5AA4-BA27-B4F9-4973E3D77EBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

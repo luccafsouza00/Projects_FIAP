@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="384235D0-754C-50AC-C066-67DD0875DA77" name="T_FINTECH_BAIRRO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>909FBE58-9B5B-9340-BE2F-133CBF940032</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="752CF10B-06C7-2298-2967-039A923BF6EC">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>639B8346-1C76-9537-6244-36E372B9E5A7</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FINTECH_CIDADE_cd_cidade" id="608DAF8E-BB35-E384-201E-BD9489C9D6D1">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>BAB83B6F-5BDD-87C1-1203-A340D747EF6F</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7677F4B4-869E-9CE1-F0AB-933947412E6B" referredColumn="6006E00E-6278-AEE9-A5CC-83E9EC8161C7"/>
+</associations>
+</Column>
+<Column name="nm_bairro" id="924F3816-5954-6D16-C932-2B8AC4C2E699">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>B2128000-A047-9AF8-4C4D-51621A245B83</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8C4F8B6-B9F8-BA7B-7502-4FD269813B83" name="T_FINTECH_BAIRRO_PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>68E952B8-872E-B27E-CC85-3EEED7DB370C</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="752CF10B-06C7-2298-2967-039A923BF6EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A2D4D7C-7CEE-1FE2-BA0C-F29CEE4A1541" name="T_FINTECH_BAIRRO_T_FINTECH_CIDADE_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>E1554068-A43E-556A-28F4-C13DD189BB92</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="608DAF8E-BB35-E384-201E-BD9489C9D6D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

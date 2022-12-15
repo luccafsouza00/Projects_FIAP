@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA556A94-D221-24F3-C902-DBBE47DFEBE3" name="T_FINTECH_CONTA">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>8838DD18-DE22-E06E-B610-F1715D98DD46</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conta" id="7B89D8B2-6985-97B4-F2B2-F2441E361A7D">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>A3DF7D70-0C96-C880-A111-8AEEA5369BB9</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FINTECH_USUARIO_id_usuario" id="8E07588D-FD07-C3F5-AF4F-2EDF10B27D26">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>EF413698-1CB0-7292-2B7E-92485B3916BA</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BEEFBE4-8B94-ED0E-DC31-5A8A41DA5431" referredColumn="9C94747B-FA2D-65AA-CBF0-3B83FC1449F2"/>
+</associations>
+</Column>
+<Column name="nr_saldo" id="82F2D56C-11D8-0A18-F45A-B2121AC3D023">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>3F346C46-8628-74AF-4694-D2743994BC3E</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C803166-4445-9167-7C16-B0D9AA6954D0" name="T_FINTECH_CONTA_PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>8CC0BCF8-F7BB-7B74-2C73-CAAF569839D8</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B89D8B2-6985-97B4-F2B2-F2441E361A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="646706F6-0662-2E21-63BF-85ACFF7F111A" name="T_FINTECH_CONTA__IDX">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CF7A9DE1-C11D-EF0C-AEF6-7C0850DA9BCB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8E07588D-FD07-C3F5-AF4F-2EDF10B27D26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D48DB80B-BF4C-1CFA-6DC1-266404DF3D2B" name="T_FINTECH_CONTA_T_FINTECH_USUARIO_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>CF7A9DE1-C11D-EF0C-AEF6-7C0850DA9BCB</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E07588D-FD07-C3F5-AF4F-2EDF10B27D26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E018CF8-24A1-FC1C-FA38-E1811769DC64" name="T_FINTECH_TRANSACAO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:30:48 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conta" id="74DAE275-E3AD-FA63-C06B-453DD2B2800E">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:35:11 UTC</createdTime>
+<generatorID>C13FD537-665B-BADD-FC43-A0837856A3AB</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<referedAttribute>A3DF7D70-0C96-C880-A111-8AEEA5369BB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_transacao" id="55595F9D-79E3-4857-B8DD-5D7F02B67E35">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:36:39 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_transacao" id="B364CB86-11E3-3393-1694-271DFEB7EF3A">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:38:05 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_transacao" id="64B5C837-B23B-3911-6009-1E5D9B3C5669">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:43:00 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="492E4A55-0FA6-0F60-2FAE-C4FA017D6FB2" name="T_FINTECH_TRANSACAO PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 08:36:47 UTC</createdTime>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<engineerTo>
+<item key="C9F4719D-AF7A-BEC8-3158-AA8834ABE868" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55595F9D-79E3-4857-B8DD-5D7F02B67E35</attributeRef>
+<attributeRef>74DAE275-E3AD-FA63-C06B-453DD2B2800E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

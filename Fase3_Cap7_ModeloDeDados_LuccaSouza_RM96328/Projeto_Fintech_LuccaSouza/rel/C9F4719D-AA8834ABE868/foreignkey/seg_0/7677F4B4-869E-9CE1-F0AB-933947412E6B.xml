@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7677F4B4-869E-9CE1-F0AB-933947412E6B" containerWithKeyObject="384235D0-754C-50AC-C066-67DD0875DA77" localFKIndex="4A2D4D7C-7CEE-1FE2-BA0C-F29CEE4A1541" name="T_FINTECH_BAIRRO_T_FINTECH_CIDADE_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>E1554068-A43E-556A-28F4-C13DD189BB92</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<referredTableLongName>T_FINTECH_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87E8A5BF-7801-F277-AF12-74DE9487F7F4</referredTableID>
+<keyObject>F771BE74-A67A-FDE6-9383-79EB1C963086</keyObject>
+<referredKeyID>F771BE74-A67A-FDE6-9383-79EB1C963086</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

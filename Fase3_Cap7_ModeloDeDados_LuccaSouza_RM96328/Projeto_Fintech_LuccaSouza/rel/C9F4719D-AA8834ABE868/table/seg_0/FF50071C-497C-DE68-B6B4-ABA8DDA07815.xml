@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF50071C-497C-DE68-B6B4-ABA8DDA07815" name="T_FINTECH_USUARIO_ENDERECO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>3D59B3CC-D8B5-E9C7-F3A1-376D4ABFCF32</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FINTECH_ENDERECO_nr_cep" id="09D895FC-E88F-DF13-D1A9-79506D82E664">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>99D763B7-8F6E-A82C-A650-A32AE2B2E8AB</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAFB2F90-896D-BF10-A3AF-28A5F788F1BE" referredColumn="05F9E7DA-2927-B39B-BE15-7693335F59B0"/>
+</associations>
+</Column>
+<Column name="T_FINTECH_USUARIO_id_usuario" id="B90454E5-D8D2-4269-AF79-7A4033EF8B9A">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>77551EFA-D243-58C1-CC45-22E0ECBADE91</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7DFA07C-63C9-6FB7-F8DF-E2CF000E1552" referredColumn="9C94747B-FA2D-65AA-CBF0-3B83FC1449F2"/>
+</associations>
+</Column>
+<Column name="nr_endereco" id="5447554A-6512-8B4E-CE1A-BC5230139B1A">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>03102C57-6493-FEDB-1C27-27DD8B9872D9</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC2C5328-1E7E-1F6A-4A3E-0ED216193352" name="T_FINTECH_USUARIO_ENDERECO_PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>BB1AC0CF-E9E3-CFB1-BC75-D23EAA8B8BC6</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D895FC-E88F-DF13-D1A9-79506D82E664"/>
+<colUsage columnID="B90454E5-D8D2-4269-AF79-7A4033EF8B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B36799B0-6131-0A1F-043F-F504B83184AC" name="T_FINTECH_USUARIO_ENDERECO_T_FINTECH_ENDERECO_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>91FBF3F7-CD4B-BCAA-C64D-5D9A4D5477AD</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D895FC-E88F-DF13-D1A9-79506D82E664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D31BF50A-0DBF-26EE-6C3E-98350E12AD89" name="T_FINTECH_USUARIO_ENDERECO_T_FINTECH_USUARIO_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>BDC42D4D-85B0-1683-CBD3-2B1514FA396A</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B90454E5-D8D2-4269-AF79-7A4033EF8B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5241FFE3-6D8C-AA6D-FF7B-A1C42EFB4B0E" containerWithKeyObject="1E2F5431-AE9C-C0B7-9B37-3D827981361B" localFKIndex="0BC4952A-F883-3AAA-845D-2C6DD65ABBD6" name="T_FINTECH_ENDERECO_T_FINTECH_BAIRRO_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>F8BDF399-5280-B44F-C7D7-31EF19020FE0</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<referredTableLongName>T_FINTECH_BAIRRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>384235D0-754C-50AC-C066-67DD0875DA77</referredTableID>
+<keyObject>E8C4F8B6-B9F8-BA7B-7502-4FD269813B83</keyObject>
+<referredKeyID>E8C4F8B6-B9F8-BA7B-7502-4FD269813B83</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_bairro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

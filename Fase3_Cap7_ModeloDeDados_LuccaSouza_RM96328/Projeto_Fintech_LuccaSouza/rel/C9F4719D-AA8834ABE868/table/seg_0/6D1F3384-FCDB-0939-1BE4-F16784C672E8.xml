@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D1F3384-FCDB-0939-1BE4-F16784C672E8" name="T_FINTECH_INVESTIMENTO">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>3F3412D1-5EF3-343A-3EB2-5E10D54DB23F</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FINTECH_CONTA_id_conta" id="EC3339F7-40C8-21B5-349B-21FF4631D822">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>D2122CBE-C9CE-2EF9-6234-7316DBFC5499</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85038B4F-5C84-ADA5-451E-4BF6BF0F080B" referredColumn="7B89D8B2-6985-97B4-F2B2-F2441E361A7D"/>
+</associations>
+</Column>
+<Column name="cd_investimento" id="6EFDECA7-9341-BC77-D66C-3BCF08F047B3">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>15219207-5962-9E64-A196-CE2E4E823345</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_investido" id="FA9AE799-31C7-8B7B-4A30-FD70ED89B46B">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>D559CB97-1039-C6F2-71E9-1FDDBAF25F02</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="893D5649-4BCD-2EFC-E520-4AC15F164ABF" name="T_FINTECH_INVESTIMENTO_PK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>DD47C035-C2C4-8AF6-89C6-6C84676B8E58</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EFDECA7-9341-BC77-D66C-3BCF08F047B3"/>
+<colUsage columnID="EC3339F7-40C8-21B5-349B-21FF4631D822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93A33158-5FAE-C342-5A09-E6501C15501A" name="T_FINTECH_INVESTIMENTO_T_FINTECH_CONTA_FK">
+<createdBy>luccasouza</createdBy>
+<createdTime>2022-11-15 09:41:37 UTC</createdTime>
+<generatorID>B1537CFF-0822-2BFD-9958-E05BE3FF095E</generatorID>
+<ownerDesignName>Projeto_Fintech_LuccaSouza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC3339F7-40C8-21B5-349B-21FF4631D822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
